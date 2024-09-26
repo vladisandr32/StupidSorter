@@ -1,0 +1,1115 @@
+#!/bin/bash
+for i in $(seq 1 100);
+do
+    echo "  "
+done
+echo -e "\e[0;36m______________1¶¶¶____¶¶¶1___¶¶¶1_________________"
+echo -e "_____________¶¶¶1___1¶¶1___1¶¶1___________________"
+echo -e "____________1¶¶1___1¶¶1___1¶¶1____________________"
+echo -e "____________1¶¶1___1¶¶1___1¶¶¶____________________"
+echo -e "_____________¶¶¶____¶¶¶1___¶¶¶1___________________"
+echo -e "______________¶¶¶¶___1¶¶¶___1¶¶¶__________________"
+echo -e "_______________1¶¶¶1___¶¶¶1___¶¶¶¶________________"
+echo -e "_________________1¶¶1____¶¶¶____¶¶¶_______________"
+echo -e "___________________¶¶1____¶¶1____¶¶1______________"
+echo -e "___________________¶¶¶____¶¶¶____¶¶¶______________"
+echo -e "__________________1¶¶1___1¶¶1____¶¶1______________"
+echo -e "_________________¶¶¶____¶¶¶1___1¶¶1_______________"
+echo -e "________________11_____111_____11_________________"
+echo -e "__________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶¶¶¶¶¶¶¶¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶_______¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶_______¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶_______¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "1¶¶_______¶¶__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "_¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "_¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________"
+echo -e "__________¶¶___1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1________"
+echo -e "__________1¶¶___¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________"
+echo -e "____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶11__________"
+echo -e "11_____________________________________________111"
+echo -e "1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1"
+echo -e "__¶¶111111111¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶111111111¶__"
+echo "  "
+echo -e "\e[1;37mДобро пожаловать в\e[0m \e[1;36mStupidSorter\e[0m \e[0;34m(0.01 prealfa)\e[0m \e[1;37mby vladisandr!\e[0m"
+echo "  "
+echo -e "\e[1;33mДля вызова справки введите 'help'\e[0m"
+echo "  "
+echo "  "
+echo "  "
+echo "  "
+ras_izob=(".apng" ".avif" ".bmp" ".gif" ".heif" ".gpeg" ".jpg" ".png" ".svg" ".tiff" ".webp")
+ras_doc=(".doc" ".djvu" ".docx" ".html" ".htm" ".odt" ".pdf" ".xls" ".xlsx" ".ods" ".ppt" ".pptx" ".txt" ".rtf" ".tex" ".eml" ".log" ".msg" ".pages" ".wpd" ".vcf" ".xml")
+ras_aud=(".wav" ".aiff" ".mp3" ".aac" ".ogg" ".flac" ".alac" ".wma" ".ape" ".midi" ".dsd" ".amr" ".pcm")
+ras_vid=(".webm" ".mpg" ".mp2" ".mpeg" ".mpe" ".mpv" ".ogg" ".mp4" ".m4p" ".m4v" ".avi" ".wmv" ".mov" ".qt" ".flv" ".swf" ".avchd")
+ras_zip=(".zip" ".tar.gz" ".rar" ".7z" ".tar" ".gz" ".bz2" ".arj" ".lzh" ".lha" ".z" ".cpio" ".war" ".cab" ".jar")
+ras_iso=(".iso" ".bin" ".dmg" ".img" ".vdi" ".vmdk" ".vhd" ".vhdx" ".hdd" ".pvm" ".toast" ".cdr" ".nrg" ".mdf" ".uif" ".daa" ".cif" ".wim" ".swm" ".esd" ".ffu" ".sdi" ".vcd")
+ras_exe=(".msi" ".exe" ".app" ".apk" ".deb" ".rpm" ".msm" ".msp" ".mst" ".idt" ".cup" ".pcp")
+ras_lang=(".c" ".cpp" ".cxx" ".cc" ".java" ".py" ".rb" ".php" ".js" ".ts" ".cs" ".swift" ".go" ".rs" ".kt" ".lua" ".pl" ".r" ".sh" ".bat" ".cmd" ".hs" ".erl" ".ex" ".exs" ".clj" ".cljs" ".scala" ".groovy" ".dart" ".asm" ".pas" ".vb" ".f" ".for" ".f90" ".lisp" ".lsp" ".ml" ".m" ".sql" ".adb" ".ads" ".fs" ".fsi" ".fsx")
+vibor_rasshirenia=0
+vibor_directorii=0
+while [[ $sort -ne 1 ]]; do
+    while [[ $vibor_directorii -ne 1 ]]; do 
+        echo "   "
+        echo -e "\e[1;36mВыберете директорию с которой хотите работать:\e[0m"
+        read source_dir
+        if [[ $source_dir != "help" ]]; then
+            if [[ $source_dir == "dir" ]]; then
+                source_dir=$(pwd)
+            fi
+            if [ -d "$source_dir" ]; then
+                echo "  "
+                echo -e "\e[1;37mОтлично, работаем с директорией\e[0m" "\e[1;32m$source_dir\e[0m"
+                echo "  "
+                vibor_directorii=1
+            else
+                echo "  "
+                echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                echo -e "\e[0;33m**Если вы хотите использовать директорию, в которой сейчас находитесь, введите\e[0m" "\e[0;36m'dir'\e[0m" "\e[0;33m**\e[0m"
+            fi
+        else
+            echo "  "
+            echo -e "\e[0;33m**Введите дирректорию в которой хотите провести сортировку**\e[0m"
+            echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+            echo -e "\e[0;33m**Если вы хотите использовать директорию, в которой сейчас находитесь, введите\e[0m" "\e[0;36m'dir'\e[0m" "\e[0;33m**\e[0m"
+        fi
+    done
+    while [[ $vibor_rasshirenia -ne 1 ]]; do
+        echo -e "\e[1;36mВыберете файлы которые хотите отсортировать:\e[0m"
+        read ras
+        case $ras in
+            reset)
+            exec "$0"
+            ;;
+            help)
+                echo "  "
+                echo -e "\e[0;33m**Введите тип файлов, которые вы хотите переместить**\e[0m"
+                echo "  "
+                echo -e "\e[1;33m  Изображения - img\e[0m"
+                echo -e "\e[1;33m  Документы - doc\e[0m"
+                echo -e "\e[1;33m  Музыка - aud\e[0m"
+                echo -e "\e[1;33m  Видео - vid\e[0m"
+                echo -e "\e[1;33m  Архивы - zip\e[0m"
+                echo -e "\e[1;33m  Установочные файлы windows - exe\e[0m"
+                echo -e "\e[1;33m  Образы дисков - iso\e[0m"
+                echo -e "\e[1;33m  Файлы языков программирования - lang\e[0m"
+                echo -e "\e[43m  Всё и сразу - all\e[0m"
+                echo "      "
+                ;;
+            img)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mИзображений\e[0m"
+                vibor_img_dir=0
+                while [[ $vibor_img_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read img_dir
+                    if [[ $img_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $img_dir != "help" ]]; then
+                        if [[ $img_dir == "img" ]]; then
+                            cd 
+                            cd Изображения
+                            img_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$img_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mизображения\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$img_dir\e[0m"
+                            echo "  "
+                        vibor_img_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'img'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'img'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_izob[@]}; do
+                    extension="${ras_izob[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $img_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного изображения\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            doc)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mДокументов\e[0m"
+                vibor_doc_dir=0
+                while [[ $vibor_doc_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read doc_dir
+                    if [[ $doc_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $doc_dir != "help" ]]; then
+                        if [[ $doc_dir == "doc" ]]; then
+                            cd 
+                            cd Документы
+                            doc_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$doc_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mдокументы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$doc_dir\e[0m"
+                            echo "  "
+                        vibor_doc_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_doc[@]}; do
+                    extension="${ras_doc[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $doc_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного документа\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            aud)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mАудиофайлов\e[0m"
+                vibor_aud_dir=0
+                while [[ $vibor_aud_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read aud_dir
+                    if [[ $aud_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $aud_dir != "help" ]]; then
+                        if [[ $aud_dir == "aud" ]]; then
+                            cd 
+                            cd Музыка
+                            aud_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$aud_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mаудиофайлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$aud_dir\e[0m"
+                            echo "  "
+                        vibor_aud_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'aud'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_aud[@]}; do
+                    extension="${ras_aud[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $aud_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного аудиофайла\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            vid)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mВидеофайлов\e[0m"
+                vibor_vid_dir=0
+                while [[ $vibor_vid_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read vid_dir
+                    if [[ $vid_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $vid_dir != "help" ]]; then
+                        if [[ $vid_dir == "vid" ]]; then
+                            cd 
+                            cd Видео
+                            vid_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$vid_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mвидеофайлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$vid_dir\e[0m"
+                            echo "  "
+                        vibor_vid_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'vid'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'vid'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_vid[@]}; do
+                    extension="${ras_vid[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $vid_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного видеофайла\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            zip)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mАрхивов\e[0m"
+                vibor_zip_dir=0
+                while [[ $vibor_zip_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read zip_dir
+                    if [[ $zip_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $zip_dir != "help" ]]; then
+                        if [[ $zip_dir == "zip" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir zip
+                            cd zip
+                            zip_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$zip_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mархивы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$zip_dir\e[0m"
+                            echo "  "
+                        vibor_zip_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'zip'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'zip'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_zip[@]}; do
+                    extension="${ras_zip[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $zip_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного архива\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            exe)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mЗагрузочных файлов\e[0m"
+                vibor_exe_dir=0
+                while [[ $vibor_exe_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read exe_dir
+                    if [[ $exe_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $exe_dir != "help" ]]; then
+                        if [[ $exe_dir == "exe" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir exe
+                            cd exe
+                            exe_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$exe_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mустановочные файлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$exe_dir\e[0m"
+                            echo "  "
+                        vibor_exe_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'exe'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'exe'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_exe[@]}; do
+                    extension="${ras_exe[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $exe_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного установочного файла\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            iso)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mОбразов дисков\e[0m"
+                vibor_iso_dir=0
+                while [[ $vibor_iso_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read iso_dir
+                    if [[ $iso_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $iso_dir != "help" ]]; then
+                        if [[ $iso_dir == "iso" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir iso
+                            cd iso
+                            iso_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$iso_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mобразы дисков\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$iso_dir\e[0m"
+                            echo "  "
+                        vibor_iso_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'iso'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'iso'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_iso[@]}; do
+                    extension="${ras_iso[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $iso_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного образа дисков\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            lang)
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mФайлов языков программирования\e[0m"
+                vibor_lang_dir=0
+                while [[ $vibor_lang_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read lang_dir
+                    if [[ $lang_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $lang_dir != "help" ]]; then
+                        if [[ $lang_dir == "lang" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir lang
+                            cd lang
+                            lang_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$lang_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mфайлы языков программирования\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$lang_dir\e[0m"
+                            echo "  "
+                        vibor_lang_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'lang'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'lang'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                pustota=0
+                echo "  "
+                for i in ${!ras_lang[@]}; do
+                    extension="${ras_lang[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $lang_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного файла языков программирования\e[0m"
+                fi   
+                echo "  " 
+            ;;
+            all)
+                echo "  "
+                echo -e "\e[1;36Сортировка всех видов файлов\e[0m"
+                auto_r=2
+                auto_vvod=z
+                while [[ $auto_r -ne 1 && $auto_r -ne 0 ]]; do 
+                    echo "  "
+                    echo -e "\e[1;36mВвести директории для вставки автоматически? (y/n)\e[0m"
+                    read auto_vvod
+                    if [[ $auto_vvod == "y" ]]; then
+                        auto_r=1
+                        echo "  "
+                        echo -e "\e[1;32mВыбран автоматический выбор директорий\e[0m"
+                        echo "  "
+                    elif [[ $auto_vvod == "n" ]]; then
+                        auto_r=0
+                        echo "  "
+                        echo -e "\e[1;32mВыбран ручной выбор директорий\e[0m"
+                        echo "  "
+                    else
+                        echo "  "
+                        echo -e "\e[1;33mДля продолжения выберете один из вариантов\e[0m"
+                    fi
+                done
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mИзображений\e[0m"
+                vibor_img_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Изображения
+                    img_dir=$(pwd)
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_img_dir -ne 1 ]]; do 
+                        echo "   "
+                        echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                        read img_dir
+                        if [[ $img_dir == "reset" ]]; then
+                            echo "exit"
+                            exec "$0"
+                        fi
+                        if [[ $img_dir != "help" ]]; then
+                            if [[ $img_dir == "img" ]]; then
+                                cd 
+                                cd Изображения
+                                img_dir=$(pwd)
+                                cd ..
+                                cd Загрузки
+                            fi
+                            if [ -d "$img_dir" ]; then
+                                echo "  "
+                                echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mизображения\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$img_dir\e[0m"
+                                echo "  "
+                                vibor_img_dir=1
+                            else
+                                echo "  "
+                                echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                                echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'img'\e[0m \e[0;33m**\e[0m"
+                            fi
+                        else
+                            echo "  "
+                            echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                            echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'img'\e[0m \e[0;33m**\e[0m"
+                            echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_izob[@]}; do
+                    extension="${ras_izob[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $img_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного изображения\e[0m"
+                fi   
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mДокументов\e[0m"
+                vibor_doc_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Документы
+                    doc_dir=$(pwd)
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_doc_dir -ne 1 ]]; do 
+                        echo "   "
+                        echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                        read doc_dir
+                        if [[ $doc_dir == "reset" ]]; then
+                            echo "exit"
+                            exec "$0"
+                        fi
+                        if [[ $doc_dir != "help" ]]; then
+                            if [[ $doc_dir == "doc" ]]; then
+                                cd 
+                                cd Документы
+                                doc_dir=$(pwd)
+                                cd ..
+                                cd Загрузки
+                            fi
+                            if [ -d "$doc_dir" ]; then
+                                echo "  "
+                                echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mдокументы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$doc_dir\e[0m"
+                                echo "  "
+                            vibor_doc_dir=1
+                            else
+                                echo "  "
+                                echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                                echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                            fi
+                        else
+                            echo "  "
+                            echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                            echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                            echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_doc[@]}; do
+                    extension="${ras_doc[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $doc_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного документа\e[0m"
+                fi
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mАудиофайлов\e[0m"
+                vibor_aud_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Музыка
+                    aud_dir=$(pwd)
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_aud_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read aud_dir
+                    if [[ $aud_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $aud_dir != "help" ]]; then
+                        if [[ $aud_dir == "aud" ]]; then
+                            cd 
+                            cd Музыка
+                            aud_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$aud_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mаудиофайлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$aud_dir\e[0m"
+                            echo "  "
+                        vibor_aud_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'aud'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'doc'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_aud[@]}; do
+                    extension="${ras_aud[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $aud_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного аудиофайла\e[0m"
+                fi   
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mВидеофайлов\e[0m"
+                vibor_vid_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Видео
+                    vid_dir=$(pwd)
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_vid_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read vid_dir
+                    if [[ $vid_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $vid_dir != "help" ]]; then
+                        if [[ $vid_dir == "vid" ]]; then
+                            cd 
+                            cd Видео
+                            vid_dir=$(pwd)
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$vid_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mвидеофайлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$vid_dir\e[0m"
+                            echo "  "
+                        vibor_vid_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'vid'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'vid'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_vid[@]}; do
+                    extension="${ras_vid[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $vid_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного видеофайла\e[0m"
+                fi   
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mАрхивов\e[0m"
+                vibor_zip_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Загрузки
+                    mkdir zip
+                    cd zip
+                    zip_dir=$(pwd)
+                    cd ..
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_zip_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read zip_dir
+                    if [[ $zip_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $zip_dir != "help" ]]; then
+                        if [[ $zip_dir == "zip" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir zip
+                            cd zip
+                            zip_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$zip_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mархивы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$zip_dir\e[0m"
+                            echo "  "
+                        vibor_zip_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'zip'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'zip'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_zip[@]}; do
+                    extension="${ras_zip[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $zip_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного архива\e[0m"
+                fi   
+                echo "  "
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mУстановочных файлов\e[0m"
+                vibor_exe_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Загрузки
+                    mkdir exe
+                    cd exe
+                    exe_dir=$(pwd)
+                    cd ..
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_exe_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read exe_dir
+                    if [[ $exe_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $exe_dir != "help" ]]; then
+                        if [[ $exe_dir == "exe" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir exe
+                            cd exe
+                            exe_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$exe_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mустановочные файлы\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$exe_dir\e[0m"
+                            echo "  "
+                        vibor_exe_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'exe'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'exe'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_exe[@]}; do
+                    extension="${ras_exe[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $exe_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного установочного файла\e[0m"
+                fi   
+                echo "  " 
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mОбразов дисков\e[0m"
+                vibor_iso_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Загрузки
+                    mkdir iso
+                    cd iso
+                    iso_dir=$(pwd)
+                    cd ..
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_iso_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read iso_dir
+                    if [[ $iso_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $iso_dir != "help" ]]; then
+                        if [[ $iso_dir == "iso" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir iso
+                            cd iso
+                            iso_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$iso_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mобразы дисков\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$iso_dir\e[0m"
+                            echo "  "
+                        vibor_iso_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'iso'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'iso'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_iso[@]}; do
+                    extension="${ras_iso[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $iso_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного образа дисков\e[0m"
+                fi   
+                echo "  " 
+                echo -e "\e[1;37mГотовимся к сортировке\e[0m \e[1;32mФайлов языков программирования\e[0m"
+                vibor_lang_dir=0
+                if [[ $auto_vvod == "y" ]]; then
+                    cd 
+                    cd Загрузки
+                    mkdir lang
+                    cd lang
+                    lang_dir=$(pwd)
+                    cd ..
+                    cd ..
+                    cd Загрузки
+                else
+                    while [[ $vibor_lang_dir -ne 1 ]]; do 
+                    echo "   "
+                    echo -e "\e[1;36mВыберете директорию, куда будут перенесены файлы:\e[0m"
+                    read lang_dir
+                    if [[ $lang_dir == "reset" ]]; then
+                        echo "exit"
+                        exec "$0"
+                    fi
+                    if [[ $lang_dir != "help" ]]; then
+                        if [[ $lang_dir == "lang" ]]; then
+                            cd 
+                            cd Загрузки
+                            mkdir lang
+                            cd lang
+                            lang_dir=$(pwd)
+                            cd ..
+                            cd ..
+                            cd Загрузки
+                        fi
+                        if [ -d "$lang_dir" ]; then
+                            echo "  "
+                            echo -e "\e[1;37mОтлично, перемещаем в\e[0m \e[1;32mфайлы языков программирования\e[0m \e[1;37mиз\e[0m \e[1;32m$source_dir\e[0m \e[1;37mв\e[0m \e[1;32m$lang_dir\e[0m"
+                            echo "  "
+                        vibor_lang_dir=1
+                        else
+                            echo "  "
+                            echo -e "\e[0;31mТакой директории не существует, проверьте правильность написания\e[0m"
+                            echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'lang'\e[0m \e[0;33m**\e[0m"
+                        fi
+                    else
+                        echo "  "
+                        echo -e "\e[0;33m**Введите дирректорию, в которую хотите перенести отсортированные файлы**\e[0m"
+                        echo -e "\e[0;33m**Дирректория должна быть в формате '/home/user/folder/'**\e[0m"
+                        echo -e "\e[0;33m**Если вы хотите использовать директорию по умолчанию, введите\e[0m \e[0;36m'lang'\e[0m \e[0;33m**\e[0m"
+                        echo -e "\e[0;33m**Для выхода в главное меню введите\e[0m \e[0;36m'reset'\e[0m \e[0;33m**\e[0m"
+                    fi
+                done
+                fi
+                pustota=0
+                echo "  "
+                for i in ${!ras_lang[@]}; do
+                    extension="${ras_lang[$i]}"
+                    if [ "$(find $source_dir -maxdepth 1 -type f -name "*$extension" | wc -l)" -gt 0 ]; then
+                        find $source_dir -maxdepth 1 -type f -name "*$extension" -exec mv {} $lang_dir \;
+                        echo -e "\e[0;32mФайлы с расширением\e[0m \e[0;36m$extension\e[0m \e[0;32mуспешно перемещены\e[0m"
+                    else
+                        ((pustota++))
+                    fi
+                done
+                a=i
+                ((a++))
+                if [ "$pustota" -eq $a ]; then
+                    echo -e "\e[0;31mК сожалению в директории\e[0m \e[0;36m$source_dir\e[0m \e[0;31mне было найдено ни одного файла языков программирования\e[0m"
+                fi   
+                echo "  "
+                exitt=0
+                while [[ $exitt -ne 1 ]]; do 
+                    echo -e "\e[1;32mСортировка окончена!\e[0m \e[1;36mПерезапустить программу? (y/exit) \e[0m"
+                    read exitexit
+                    if [[ $exitexit == "exit" ]]; then
+                        echo "Выход"
+                        exit 0
+                    elif [[ $exitexit == "y" ]]; then
+                        echo "Перезагрузка"
+                        exec "$0"
+                    else
+                        echo "  "
+                        echo -e "\e[1;33mДля продолжения выберете один из вариантов\e[0m"
+                        echo "  "
+                    fi
+                done
+            ;;
+        esac
+    done
+done
