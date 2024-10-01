@@ -13,7 +13,7 @@ startdir="$(pwd)" #Сохраняем директорию в которой б�
 cd ~
 homedir="$(pwd)" #Сохраняем домашнюю директорию пользователя
 cd "${startdir}" #Возвращаемся в папку со скриптом
-
+# hello
 #
 ras_izob=(".apng" ".avif" ".bmp" ".gif" ".heif" ".gpeg" ".jpg" ".png" ".svg" ".tiff" ".webp")
 ras_doc=(".doc" ".djvu" ".docx" ".html" ".htm" ".odt" ".pdf" ".xls" ".xlsx" ".ods" ".ppt" ".pptx" ".txt" ".rtf" ".tex" ".eml" ".log" ".msg" ".pages" ".wpd" ".vcf" ".xml")
